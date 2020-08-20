@@ -1,0 +1,10 @@
+# Java
+*.class
+
+# IntelliJ IDEA
+.idea/
+out/
+*.iml
+
+# Apache Maven
+target/
