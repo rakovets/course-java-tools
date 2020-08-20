@@ -7,4 +7,8 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Course "Java Tools"</name>
+
+    <modules>
+        <module>apache-maven</module>
+    </modules>
 </project>
