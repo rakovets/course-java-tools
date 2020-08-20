@@ -18,5 +18,6 @@
     <modules>
         <module>intro</module>
         <module>profiles</module>
+        <module>multi-modules</module>
     </modules>
 </project>
