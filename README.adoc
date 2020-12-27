@@ -1,6 +1,35 @@
 = course-java-tools
 
-Course "Java Tools"
+This project is for the course "Java Tools".
+
+It contains for each theme of this course:
+
+* code examples
+* tasks or set specifications of tasks
+
+== Branches
+
+* `master` - production code (merge after release group)
+* `develop` - feature/refactor/fix artifacts (code/specification of tasks/module) for all themes
+* `${theme}` - contains artifacts (code/specification of tasks/module) for specific theme
+
+== Theme
+
+=== Apache Maven
+
+|===
+|*Theme*|*Links*
+|Intro.|link:apache-maven/intro/src/main/resources/intro.adoc[intro.adoc]
+|Multi-modules project.|link:apache-maven/multi-modules/src/main/resources/multi-modules.adoc[multi-modules.adoc]
+|Profiles.|link:apache-maven/profiles/src/main/resources/profiles.adoc[profiles.adoc]
+|===
+
+=== Apache Tomcat
+
+|===
+|*Theme*|*Links*
+||
+|===
 
 == Code of Conduct
 
