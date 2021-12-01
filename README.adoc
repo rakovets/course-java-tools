@@ -31,6 +31,18 @@ It contains for each theme of this course:
 ||
 |===
 
+=== Server Message Block
+
+*Server Message Block* (*SMB*) protocol and his dialect *Common Internet File System* (*CIFS*). See: link:https://www.varonis.com/blog/cifs-vs-smb/[]
+
+link:https://www.jcifs.org/[The Java CIFS Client Library]
+
+GitHub projects:
+
+* link:https://github.com/hierynomus/smbj[SMBJ]
+* link:https://github.com/AgNO3/jcifs-ng[jcifs-ng]
+* link:https://github.com/codelibs/jcifs[jcifs]
+
 == Code of Conduct
 
 This project is governed by the link:.github/CODE_OF_CONDUCT.adoc[Code of Conduct].
