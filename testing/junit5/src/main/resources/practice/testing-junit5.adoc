@@ -1,0 +1,29 @@
+= Testing: Junit 5
+
+== Specification of task 1
+
+Реализуйте interface `CalculatorService`:
+
+[source, java]
+----
+interface CalculatorService {
+    double add(double a, double b);
+
+    double subtract(double a, double b);
+
+    double multiply(double a, double b);
+
+    double divide(double a, double b) throws DivisionByZeroException;
+}
+----
+
+где `DivisionByZeroException extends Exception`
+
+== Specification of task 2
+
+Протестируйте реализацию интерфейса `CalculatorService`. Обязательное требование, наличие:
+
+* одиночных тестов
+* параметризованных тестов
+* тестов для пограничных случаев
+* тестов на выбрасывание исключения
