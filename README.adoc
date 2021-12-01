@@ -15,20 +15,15 @@ It contains for each theme of this course:
 
 == Theme
 
-=== Apache Maven
-
+[options="header"]
 |===
-|*Theme*|*Links*
-|Intro.|link:apache-maven/intro/src/main/resources/intro.adoc[intro.adoc]
+|Group|*Theme*|*Links*
+|Testing|JUnit 5|link:testing/junit5/src/main/resources/practice/testing-junit5.adoc[testing-junit5.adoc]
+.3+|Apache Maven|Intro.|link:apache-maven/intro/src/main/resources/intro.adoc[intro.adoc]
 |Multi-modules project.|link:apache-maven/multi-modules/src/main/resources/multi-modules.adoc[multi-modules.adoc]
 |Profiles.|link:apache-maven/profiles/src/main/resources/profiles.adoc[profiles.adoc]
-|===
-
-=== Apache Tomcat
-
-|===
-|*Theme*|*Links*
-||
+|Logging||
+|Mapping||
 |===
 
 === Server Message Block
