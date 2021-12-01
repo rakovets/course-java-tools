@@ -8,21 +8,10 @@
     <packaging>pom</packaging>
     <name>Course "Java Tools"</name>
 
+    <!-- The BOM approach is not used as modules should be as independent of parent POM as possible -->
+
     <modules>
         <module>apache-maven</module>
         <module>testing</module>
     </modules>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.6.2</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 </project>
