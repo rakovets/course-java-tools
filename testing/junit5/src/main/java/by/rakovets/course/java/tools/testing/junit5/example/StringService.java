@@ -6,4 +6,6 @@ public interface StringService {
     String trim(String str);
 
     boolean isPalindrome(String str) throws WrongArgumentException;
+
+    String[] split(String test, String separator);
 }

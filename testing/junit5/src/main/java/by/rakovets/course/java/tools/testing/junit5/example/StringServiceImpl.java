@@ -15,4 +15,11 @@ public class StringServiceImpl implements StringService {
         }
         return str.equals(new StringBuilder(str).reverse().toString());
     }
+
+    public String[] split(String text, String separator) {
+        if (separator.contains("|")) {
+            separator = separator.replace("|", "\\|");
+        }
+        return text.split(separator);
+    }
 }

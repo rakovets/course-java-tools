@@ -26,6 +26,15 @@ public class StringServiceTest {
         Assertions.assertEquals("e", stringService.trim("\n\ne       "));
     }
 
+    @Test
+    public void splitTest() {
+        String[] splitText = stringService.split("a|b", "|");
+        Assertions.assertAll("Group Test: split()",
+                () -> Assertions.assertEquals(new String[]{"a", "b"}.length, splitText.length),
+                () -> Assertions.assertEquals("a", splitText[0]),
+                () -> Assertions.assertEquals("b", splitText[1]));
+    }
+
     @MethodSource("isEmptyArgumentsProvider")
     @ParameterizedTest
     void isEmptyTest(boolean expected, String str) {
