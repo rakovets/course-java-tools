@@ -1,0 +1,33 @@
+= Apache Maven: Multi-Modules
+
+Создание многомодульного проекта.
+
+== Specification of task 1
+
+Создать проект `multi-modules` с *packaging* `pom`.
+
+== Specification of task 2
+
+Создать и зарегистрировать *module* `dal` c *packaging* `jar`.
+
+== Specification of task 3
+
+Создать *module* `service` c *packaging* `jar` и зависимым от модуля `dal`.
+
+== Specification of task 4
+
+Создать *module* `web` c *packaging* `war` и зависимым от модуля `service`.
+
+== Specification of task 5
+
+Создать в *module* `dal` собственный _class_, убедиться, что *module* `service` может пользоваться этим _class_, а *module* `web` - нет.
+
+== Specification of task 6
+
+Сделать *build* проект и убедиться, что в полученном *artifact* of *module* `web` находятся *artifacts* of *modules*:
+* `dal`
+* `service`
+
+== Specification of task 7
+
+Загрузить проект в новый *repository* в *source code repository*.

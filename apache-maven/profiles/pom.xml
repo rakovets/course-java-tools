@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.rakovets.course.java.tools</groupId>
+        <groupId>by.rakovets.course.java.tools</groupId>
         <artifactId>apache-maven</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.rakovets.course.java.tools.apache.maven</groupId>
+    <groupId>by.rakovets.course.java.tools.apache.maven</groupId>
     <artifactId>profiles</artifactId>
     <packaging>jar</packaging>
     <name>Theme: "Apache Maven: Profiles"</name>
