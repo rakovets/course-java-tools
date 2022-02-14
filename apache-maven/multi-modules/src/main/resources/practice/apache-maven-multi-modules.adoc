@@ -25,6 +25,7 @@
 == Specification of task 6
 
 Сделать *build* проект и убедиться, что в полученном *artifact* of *module* `web` находятся *artifacts* of *modules*:
+
 * `dal`
 * `service`
 
