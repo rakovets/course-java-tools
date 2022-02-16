@@ -1,30 +1,34 @@
 == Apache Maven: Profiles
 
-Создание *profiles*.
+Создание различных *profiles*.
 
 == Specification of task 1
 
-Настроить `maven-checkstyle-plugin`
+Создать класс `Calculator`, где реализованы основные арифметические операторы.
 
 == Specification of task 2
 
-Сгенерировать отчёт, в который должен быть включен класс `Calculator`, где реализованы основные арифметические операторы.
+Настроить `maven-checkstyle-plugin`, который отрабатывает на *phase* `compile`.
+
+Для того, что бы убедиться в его работоспособности, нужно сгенерировать отчёт, в который должен быть включен класс `Calculator`.
 
 == Specification of task 3
 
-Изучить отчёт и проанализировать проблемы с кодом
+Настроить `maven-jacoco-plugin`, который отрабатывает на *phase* `test`.
+
+Для того, что бы убедиться в его работоспособности, нужно сгенерировать отчёт, в который должен быть включен класс `Calculator`.
 
 == Specification of task 4
 
 Сконфигурировать два профиля:
 
 * `dev` - содержит плагин `maven-checkstyle-plugin`
-* `prod` - содержит плагин `maven-jacoco-plugin`
+* `stage` - содержит плагин `maven-jacoco-plugin`
 
 == Specification of task 5
 
 Сделать *build* проекта используя различные профили. Убедиться, что используются только настроенные в профиле плагины.
 
-== Specification of task6
+== Specification of task 6
 
 Сделать *build* проекта используя оба профиля одновременно.

@@ -4,31 +4,34 @@
 
 == Specification of task 1
 
-Создать проект `multi-modules` с *packaging* `pom`.
+Создать проект `multi-modules` с *packaging* `pom` (*archetype* `org.codehaus.mojo.archetypes:pom-root`).
 
 == Specification of task 2
 
-Создать и зарегистрировать *module* `dal` c *packaging* `jar`.
+Создать и зарегистрировать *module* `dal` c *packaging* `jar` (*archetype* `org.apache.maven.archetypes:maven-archetype-simple`).
 
 == Specification of task 3
 
-Создать *module* `service` c *packaging* `jar` и зависимым от модуля `dal`.
+Создать *module* `service` c *packaging* `jar` (*archetype* `org.apache.maven.archetypes:maven-archetype-simple`).
 
 == Specification of task 4
 
-Создать *module* `web` c *packaging* `war` и зависимым от модуля `service`.
+Создать *module* `web` c *packaging* `war` (*archetype* `org.apache.maven.archetypes:maven-archetype-webapp`).
 
 == Specification of task 5
 
-Создать в *module* `dal` собственный _class_, убедиться, что *module* `service` может пользоваться этим _class_, а *module* `web` - нет.
+Добавить зависимости между модулями:
+
+* `service` зависит от модуля `dal`
+* `web` зависит от модуля `service`
 
 == Specification of task 6
 
-Сделать *build* проект и убедиться, что в полученном *artifact* of *module* `web` находятся *artifacts* of *modules*:
-
-* `dal`
-* `service`
+Создать в *module* `dal` собственный _class_, убедиться, что *modules* `service`, `web` могут его использовать.
 
 == Specification of task 7
 
-Загрузить проект в новый *repository* в *source code repository*.
+Сделать *build* проект и убедиться, что в полученном *artifact* для *module* `web` находятся *artifacts* для *modules*:
+
+* `dal`
+* `service`
