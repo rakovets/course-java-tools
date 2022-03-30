@@ -22,8 +22,8 @@ It contains for each theme of this course:
 .3+|Apache Maven|Intro.|link:apache-maven/intro/src/main/resources/practice/apache-maven-intro.adoc[apache-maven-intro.adoc]
 |Multi-modules project.|link:apache-maven/multi-modules/src/main/resources/practice/apache-maven-multi-modules.adoc[apache-maven-multi-modules.adoc]
 |Profiles.|link:apache-maven/profiles/src/main/resources/practice/apache-maven-profiles.adoc[apache-maven-profiles.adoc]
-|Logging||
-|Mapping||
+2+|Mapping|link:mapping/mapstruct/src/main/resources/mapping-mapstruct.adoc[mapping-mapstruct.adoc]
+2+|Logging|
 |===
 
 === Server Message Block

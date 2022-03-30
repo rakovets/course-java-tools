@@ -1,0 +1,36 @@
+= Mapping: MapStruct
+
+== Specification of task 1
+
+Создать *Entity* `UserEntity` c fields:
+
+* `userId`
+* `username`
+* `role` - enum c двумя значениями: `USER`, `ADMIN`
+* `name`
+
+== Specification of task 2
+
+Создать *DTO* `UserDto` c fields:
+
+* `id`
+* `account`
+* `role`
+* `fullName`
+
+== Specification of task 3
+
+Создать *Mapper* `UserMapper` где производится следующее отображение в обоих направлениях:
+
+[options="header"]
+|===
+|`UserEntity`|`UserDto`
+|`userId`|`id`
+|`username`|`account`
+|`role`|`role`
+|`name`|`fullName`
+|===
+
+== Specification of task 4
+
+Разработать `UserMapperTests` где тестируется `UserMapper`.
